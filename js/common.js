@@ -8,14 +8,6 @@ $(function() {
 		dotsSpeed:1000
 	});
 
-	$('.products-info li a').equalHeights();
-	$('.prod-item h3').equalHeights();
-	$(window).resize(function(){
-		$('.products-info li a').height('auto');
-		$('.prod-item h3').height('auto');
-		$('.products-info li a').equalHeights();
-		$('.prod-item h3').equalHeights();
-	});
 
 	$(".l-anim").animated("fadeInLeft");
 	$(".welcome-content").animated("fadeInLeft");
